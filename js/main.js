@@ -8,6 +8,14 @@ jQuery(document).ready(function($) {
 
 	"use strict";
 
+	//Btn list
+
+	$('.btn-details').click(function(){
+		$(".details").toggle();
+	  });
+
+
+	  //Btn details
 	
 
 	var siteMenuClone = function() {
